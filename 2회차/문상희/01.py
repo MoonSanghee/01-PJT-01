@@ -1,4 +1,4 @@
-with open('fruits.txt', 'r', encoding='utf-8') as f:
+with open('data/fruits.txt', 'r', encoding='utf-8') as f:
     text = f.read()
     fruits = list(map(str, text.split('\n')))
     cnt = 0
